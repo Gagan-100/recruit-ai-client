@@ -1,0 +1,47 @@
+.postjob-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #42597e, #364254);
+}
+
+.postjob-card {
+  background: white;
+  padding: 30px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.postjob-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.postjob-card input,
+.postjob-card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.postjob-card textarea {
+  height: 80px;
+}
+
+.postjob-card button {
+  width: 100%;
+  padding: 10px;
+  background: #47456c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.postjob-card button:hover {
+  background: #536b9a;
+}

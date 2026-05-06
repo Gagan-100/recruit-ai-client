@@ -1,0 +1,57 @@
+.applications-container {
+  min-height: 100vh;
+  padding: 40px;
+  text-align: center;
+  background: linear-gradient(135deg, #3a5074, #282131);
+  color: white;
+}
+
+.applications-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.application-desc {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.application-card {
+  background: white;
+  color: #111;
+  padding: 20px;
+  margin-top: 40px;
+  width: 260px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.status {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.application-bottom {
+  margin-top: auto;
+}
+
+.status.applied {
+  color: rgb(46, 246, 103);
+}
+
+.status.accepted {
+  color: green;
+}
+
+.status.rejected {
+  color: red;
+}

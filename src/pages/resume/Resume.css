@@ -1,0 +1,84 @@
+.resume-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e293b, #4c1d95);
+}
+
+.resume-card {
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  text-align: center;
+  width: 420px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.resume-card h2 {
+  margin-bottom: 10px;
+}
+
+.resume-subtext {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.file-upload {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #607fe6;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.file-upload:hover {
+  background: #e0e7ff;
+}
+
+.file-upload input {
+  display: none;
+}
+
+.file-name {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.resume-card button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #6366f1, #4f46e5);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.resume-card button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #4f46e5, #4338ca);
+}
+
+.resume-card button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

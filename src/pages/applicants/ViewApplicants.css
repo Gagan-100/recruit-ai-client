@@ -1,0 +1,58 @@
+.applicants-container {
+  padding: 40px;
+  background: #0f172a;
+  min-height: 100vh;
+  color: white;
+}
+
+.applicants-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.applicants-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.applicant-card {
+  background: white;
+  color: black;
+  width: 280px;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.applicant-card:hover {
+  transform: translateY(-6px);
+}
+
+.rank {
+  font-weight: bold;
+  color: #f59e0b;
+  margin-bottom: 10px;
+}
+
+.score {
+  color: #10b981;
+  font-weight: bold;
+}
+
+.resume-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: #6366f1;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.resume-btn:hover {
+  background: #4f46e5;
+}
